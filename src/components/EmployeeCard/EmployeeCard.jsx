@@ -2,6 +2,7 @@ import React from "react";
 import {employees} from "../../Data/Employees"
 import "./EmployeeCard.css"
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const EmployeeDetails = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -35,6 +36,7 @@ const EmployeeDetails = () => {
   return (
     <div>
       <h2>Employee List</h2>
+      <Link className="link" to="/projects">Projects</Link>
       <div className="search-bar"> 
         <input type="text" placeholder="Search by name" value={searchTerm} onChange={handleSearch} />
       </div>

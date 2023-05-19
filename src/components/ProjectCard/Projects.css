@@ -1,0 +1,35 @@
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .project-table thead {
+    background-color: #f5f5f5;
+  }
+  
+  .project-table th {
+    font-weight: bold;
+  }
+  
+  .project-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .project-table tbody td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .no-data-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+  }
+  
+  
