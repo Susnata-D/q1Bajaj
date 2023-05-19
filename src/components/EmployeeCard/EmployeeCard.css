@@ -1,28 +1,27 @@
-.employee-container {
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .info-card {
+    width: 300px;
     border: 1px solid #ccc;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 10px;
     border-radius: 4px;
     background-color: #f8f8f8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .employee-container p {
+  .info-card p {
     margin-bottom: 10px;
+    color: #333;
   }
   
-  .employee-container h2 {
+  .info-card h2 {
     margin-bottom: 15px;
     color: #333;
     font-size: 18px;
-  }
-  
-  .employee-container .label {
-    font-weight: bold;
-    color: #666;
-  }
-  
-  .employee-container .value {
-    color: #333;
   }
   
