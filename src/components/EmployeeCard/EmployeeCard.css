@@ -1,0 +1,28 @@
+.employee-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-container p {
+    margin-bottom: 10px;
+  }
+  
+  .employee-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .employee-container .label {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .employee-container .value {
+    color: #333;
+  }
+  
