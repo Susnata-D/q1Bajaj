@@ -25,3 +25,35 @@
     font-size: 18px;
   }
   
+  .search-bar {
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  
+  .filter-bar label {
+    margin-right: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .filter-bar select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   
+  

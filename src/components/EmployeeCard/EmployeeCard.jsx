@@ -35,28 +35,26 @@ const EmployeeDetails = () => {
   return (
     <div>
       <h2>Employee List</h2>
-      <div>
+      <div className="search-bar"> 
         <input type="text" placeholder="Search by name" value={searchTerm} onChange={handleSearch} />
       </div>
-      <div>
+      <div className="filter-bar">
         <label htmlFor="designation-filter">Filter by Designation:</label>
         <select id="designation-filter" value={filterDesignation} onChange={handleFilterDesignation}>
           <option value="">All</option>
           <option value="Senior Developer">Senior Developer</option>
-          <option value="Junior Developer">QA Engineer</option>
-          <option value="Manager">Project Manager</option>
+          <option value="QA Engineer">QA Engineer</option>
+          <option value="Project Manager">Project Manager</option>
         </select>
-      </div>
-      <div>
         <label htmlFor="skills-filter">Filter by Skills:</label>
         <select id="skills-filter" value={filterSkills} onChange={handleFilterSkills}>
           <option value="">All</option>
           <option value="JavaScript">JavaScript</option>
-          <option value="Python">Manual Testing</option>
+          <option value="Manual Testing">Manual Testing</option>
           <option value="Java">Java</option>
-          <option value="Java">SQL</option>
-          <option value="Java">HTML</option>
-          <option value="Java">CSS</option>
+          <option value="SQL">SQL</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
         </select>
       </div>
       <div className="card-container">
